@@ -21,13 +21,13 @@ Note que a eficiência real dependerá do hardware e do número de núcleos disp
 Certifique-se de ter um compilador C que suporte OpenMP instalado no seu sistema. O exemplo a seguir usa o GCC.
 
 ```bash
-gcc -fopenmp ProjV1.c -o ProjV1
+gcc -fopenmp ParteFinal.c -o ParteFinal
 
 # Execução
 
 Após compilar, você pode executar o programa da seguinte maneira:
 
-./ProjV1
+./ParteFinal
 
 O programa irá calcular o valor de e e imprimir o resultado, bem como o tempo total necessário para o cálculo.
 
